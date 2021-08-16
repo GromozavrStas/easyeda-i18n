@@ -1013,7 +1013,7 @@ Track Length =
 Via/Hole Outer Size = 
 Filter nets = 
 Design Rule Checking = 
-Board Outline = 
+Board Outline = Граница Платы
 Plane Zone = 
 [drcRule]
 Width = Ширина
@@ -1024,7 +1024,7 @@ Drill Diameter =
 DRC Drill Diameter = 
 Diameter = Диаметр
 DRC Diameter = 
-Object = 
+Object = Обект
 DRC Clearance = 
 [/drcRule]
 #It will take a while to unroute this net, do you want to continue?
@@ -2904,10 +2904,10 @@ Go to LCSC =
 
 Hide Ratline Layer and Keep the Component Prefix When Paste Objects = 
 
-ALL.layer = 
-Copper.layer = 
-Non-Copper.layer = 
-Other.layer = 
+ALL.layer = Всё.layer 
+Copper.layer = Медь.layer 
+Non-Copper.layer = Не-Медь.layer 
+Other.layer = Остальное.layer 
 
 Please enter at least 2 characters! = 
 View Datasheet = 
@@ -2938,7 +2938,7 @@ Items =
 [/findlib]
 
 Object = 
-Layers and Objects = 
+Layers and Objects = Слои и объекты
 All = Все
 
 Add custom = 
